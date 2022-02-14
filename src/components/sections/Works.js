@@ -25,8 +25,8 @@ const filters = [
 const allData = [
   {
     id: 1,
-    title: "Project Managment Illustration",
-    category: "creative",
+    title: "cabinet médical",
+    category: "Web site",
     image: "images/works/2.svg",
     popupLink: [
       "images/works/2.svg",
@@ -36,8 +36,8 @@ const allData = [
   },
   {
     id: 2,
-    title: "Guest App Walkthrough Screens",
-    category: "creative",
+    title: "INVENTAIRE",
+    category: "Web site",
     image: "images/works/2.svg",
     popupLink: [
       "images/works/2.svg",
@@ -46,9 +46,9 @@ const allData = [
     ],
   },
   {
-    id: 4,
-    title: "Onboarding Motivation",
-    category: "creative",
+    id: 3,
+    title: "RÉSERVATIONS DE VOLS",
+    category: "Web site",
     image: "images/works/2.svg",
     popupLink: [
       "images/works/2.svg",
@@ -112,32 +112,7 @@ function Works() {
     <section id="works">
       <div className="container">
         <Pagetitle title="Recent Works" />
-        {/* Start Portfolio Filters */}
-        {/* <ScrollAnimation
-          animateIn="fadeInUp"
-          animateOut="fadeInOut"
-          animateOnce={true}
-        >
-          <ul className="portfolio-filter list-inline">
-            {filters.map((filter) => (
-              <li className="list-inline-item" key={filter.id}>
-                <button
-                  onClick={handleChange}
-                  className={
-                    filter.text.toLowerCase() === activeFilter
-                      ? "text-capitalize current"
-                      : "text-capitalize"
-                  }
-                >
-                  {filter.text}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </ScrollAnimation> */}
-        {/* End Portfolio Filters */}
 
-        {/* Start Portfolio Items */}
         <div className="row portfolio-wrapper">
           {visibleItems.map((item) => (
             <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
@@ -145,7 +120,6 @@ function Works() {
             </div>
           ))}
         </div>
-        {/* End Portfolio Items */}
 
         <div className="load-more text-center mt-4">
           <button

@@ -5,22 +5,22 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
+    title: "YOUCODE  (OCP/SIMPLON)",
+    years: "2020-2022",
     content:
       "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
   },
   {
     id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
+    title: "Licence en FST Al-Hoceima MI",
+    years: "2020-2021",
     content:
       "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
   },
   {
     id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
+    title: "Deust à FST Al-Hoceima MIP ",
+    years: "2018-2019",
     content:
       "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
   },
@@ -29,22 +29,15 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
+    title: "FST Al-Hoceima",
+    years: "2016-2017",
     content:
       "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
   },
   {
     id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 3,
-    title: "Back-End Developer",
-    years: "2013 - 2009",
+    title: "Baccalauréat Sciences Physique Chimie ",
+    years: "2014-2015",
     content:
       "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
   },

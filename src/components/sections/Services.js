@@ -9,7 +9,7 @@ const servicesData = [
     icon: "images/service-1.svg",
     title: "Front end",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "HTML5, css3, Javascript, Bootstrap, Vuejs, React , SASS,JQuery.",
     color: "#FFD15C",
     contentColor: "light",
   },
@@ -18,8 +18,8 @@ const servicesData = [
     icon: "images/service-2.svg",
     title: "Back end",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
-    color: "#FF4C60",
+      "PHP, API RESTFUL , DJANGO , NodeJs, MVC,Laravel.",
+    color: "#62C795",
     contentColor: "light",
   },
   {
@@ -27,7 +27,7 @@ const servicesData = [
     icon: "images/service-3.svg",
     title: "UI/UX design",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Adobe XD, Figma.",
     color: "#6C6CE5",
     contentColor: "light",
   },

@@ -3,7 +3,7 @@ import ReactCursorPosition from "react-cursor-position";
 import { Element } from "react-scroll";
 import Header from "../components/layouts/Header";
 import About from "../components/sections/About";
-import Brandlogos from "../components/sections/Brandlogos";
+// import Brandlogos from "../components/sections/Brandlogos";
 import Contact from "../components/sections/Contact";
 import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
@@ -27,7 +27,7 @@ function Homepage() {
   return (
     <>
       <Header
-        logoSource="/images/logo.svg"
+        logoSource="/Youssef.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
@@ -49,18 +49,6 @@ function Homepage() {
         <Element name="section-works">
           <Works />
         </Element>
-        {/* <Element name="section-pricing">
-          <Pricing />
-        </Element> */}
-        {/* <Element name="section-testimoninal">
-          <Testimonials />
-        </Element> */}
-        <Element name="section-brandlogos">
-          <Brandlogos />
-        </Element>
-        {/* <Element name="section-blogs">
-          <Blogs />
-        </Element> */}
         <Element name="section-contact">
           <Contact />
         </Element>
